@@ -7,6 +7,16 @@
     font-family: 'Jaro', sans-serif;
 }
 
+body {
+    background-image: url(../css/img/papel\ de\ parede\ vaporwave.jpg);
+    background-
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 #menu-h ul{
     list-style: none;
     padding: 0;
