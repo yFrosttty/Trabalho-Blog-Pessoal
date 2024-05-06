@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jaro:opsz@6..72&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jaro', sans-serif;
+}
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background: rgb(199,157,10);
+background: linear-gradient(90deg, rgba(199,157,10,1) 0%, rgba(195,0,226,1) 64%, rgba(0,9,226,1) 100%);
+}
+
+#menu-h ul li {
+    display: inline-block;
+}
+
+#menu-h ul li a {
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgba(240, 248, 255, 0.274);
+    color: black;
+}
