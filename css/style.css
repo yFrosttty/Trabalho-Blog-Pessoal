@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jaro:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 * {
     margin: 0 auto;
@@ -12,7 +13,7 @@ body {
     background-
 }
 
-nav {
+#menu-h{
     display: flex;
     justify-content: center;
 }
@@ -39,4 +40,23 @@ background: linear-gradient(90deg, rgba(199,157,10,1) 0%, rgba(195,0,226,1) 64%,
 #menu-h ul li a:hover {
     background-color: rgba(240, 248, 255, 0.274);
     color: black;
+}
+
+.conteudo-home{
+    margin: 150px;
+    background-color: rgba(137, 43, 226, 0.541);
+}
+
+h1#apresentacao{
+    text-align: center;
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Anonymous Pro',sans-serif;
+}
+
+h2#apresentacao2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Anonymous Pro', sans-serif;
 }
