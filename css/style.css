@@ -67,7 +67,7 @@ background: linear-gradient(90deg, rgba(199,157,10,1) 0%, rgba(195,0,226,1) 64%,
     margin: 150px;
     margin-top: 100px;
     padding: 100px;
-    background-color: rgba(137, 43, 226, 0.541);
+    background-color: #892be28a;
 }
 
 h1#apresentacao{
@@ -82,4 +82,45 @@ h2#apresentacao2{
     color: aliceblue;
     font-size: 25px;
     font-family: 'Anonymous Pro', sans-serif;
+}
+
+.container {
+    width: 300px;
+    padding: 16px;
+    background-color: #892be28a;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(222 0 223);
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"],.container input[type="tel"],.container input[type="email"],.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+    background-color: #45a049;
 }
