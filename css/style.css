@@ -84,6 +84,7 @@ h2#apresentacao2{
     font-family: 'Anonymous Pro', sans-serif;
 }
 
+<<<<<<< Updated upstream
 .container {
     width: 300px;
     padding: 16px;
@@ -124,3 +125,25 @@ h2#apresentacao2{
 .container input[type="submit"]:hover {
     background-color: #45a049;
 }
+=======
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-container {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+>>>>>>> Stashed changes
