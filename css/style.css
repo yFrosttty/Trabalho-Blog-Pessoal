@@ -67,7 +67,7 @@ background: linear-gradient(90deg, rgba(199,157,10,1) 0%, rgba(195,0,226,1) 64%,
     margin: 150px;
     margin-top: 100px;
     padding: 100px;
-    background-color: #892be28a;
+    background-color: #781e6fad;
 }
 
 h1#apresentacao{
@@ -84,7 +84,6 @@ h2#apresentacao2{
     font-family: 'Anonymous Pro', sans-serif;
 }
 
-<<<<<<< Updated upstream
 .container {
     width: 300px;
     padding: 16px;
@@ -125,7 +124,6 @@ h2#apresentacao2{
 .container input[type="submit"]:hover {
     background-color: #45a049;
 }
-=======
 .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -143,7 +141,48 @@ h2#apresentacao2{
   }
   
   .text-container {
+    font-family: 'Anonymous Pro', sans-serif;
     padding: 10px;
     box-sizing: border-box;
+    color: aliceblue;
+    background-color: #781e6fad;
+    padding: 20px;
+    text-align: center;
   }
->>>>>>> Stashed changes
+
+  .container3 {
+	display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+	background-color: #781e6fad;
+	padding: 20px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+.image-box {
+	text-align: center;
+    height: 55%;
+    width: 55%;
+}
+
+.text {
+	margin: 0;
+    font-family: 'Anonymous Pro', sans-serif;
+    color: aliceblue;
+}
+
+.text-container2 {
+    font-family: 'Anonymous Pro', sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+    background-color: #781e6fad;
+    padding: 50px;
+    text-align: center;
+  }
